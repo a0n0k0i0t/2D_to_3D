@@ -1,5 +1,7 @@
 # 2D Image to 3D Point Cloud Depth Map
+### (Contributions by Kush, Ankit, Ashutosh, Jasbir)
 
+## PPT Link ([here](https://www.canva.com/design/DAGXdRC0h_E/JhMqzfEzHj6ISiktKK37cw/edit?utm_content=DAGXdRC0h_E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton))
 This project implements a deep learning-based depth estimation system using a custom convolutional neural network (CNN). The system trains on paired RGB images and depth maps to predict depth maps for new images. 
 
 ## Features
