@@ -1,4 +1,3 @@
-
 # 2D Image to 3D Point Cloud Depth Map
 
 This project implements a deep learning-based depth estimation system using a custom convolutional neural network (CNN). The system trains on paired RGB images and depth maps to predict depth maps for new images. 
@@ -64,7 +63,7 @@ The trained model will be saved in the `output/` directory as `model.pth`.
 - **Training Results**:
    - Training result plot showing the training and validation loss curves saved as `./images/training_result.jpg`.
 
-   ![Training Results](https://github.com/a0n0k0i0t/2D_to_3D/blob/main/images/training_result.jpg)
+   <img src="https://github.com/a0n0k0i0t/2D_to_3D/blob/main/images/training_result.jpg" width="50%" height="50%" />
 
    Model trained for 10 epochs with a steadily decreasing loss.
 The MSE loss computed between the predicted and ground truth values across all pixels in the depth map.
@@ -102,36 +101,36 @@ python visualize_depth.py
 ## Example Input and Output
 
 ### Example Input:
-- **Input Image**: `Bird.jpg` (RGB Image)
+- **Input Image**: `Bird.jpeg` (RGB Image)
 
-![Input Image](https://github.com/a0n0k0i0t/2D_to_3D/blob/main/images/Bird.jpeg)
+<img src="https://github.com/a0n0k0i0t/2D_to_3D/blob/main/Bird.jpeg" width="50%" height="50%" />
 
 ### Example Output:
 - **Depth Map**: 
    - Intermediate depth map saved as `./images/depth_map.jpg`.
 
-![Depth Map](https://github.com/a0n0k0i0t/2D_to_3D/blob/main/images/depth_map.jpg)
+   <img src="https://github.com/a0n0k0i0t/2D_to_3D/blob/main/images/depth_map.jpg" width="50%" height="50%" />
 
    - 3D depth map saved as `./images/3d_surface_plot_of_depthmap.jpg`.
 
-![Depth Map](https://github.com/a0n0k0i0t/2D_to_3D/blob/main/images/3d_surface_plot_of_depthmap.jpg)
+   <img src="https://github.com/a0n0k0i0t/2D_to_3D/blob/main/images/3d_surface_plot_of_depthmap.jpg" width="50%" height="50%" />
 
 - **Point Cloud Views**:
    - Front view of the point cloud saved as `./images/front_view.jpg`.
 
-   ![Front View](https://github.com/a0n0k0i0t/2D_to_3D/blob/main/images/front_view.jpg)
+   <img src="https://github.com/a0n0k0i0t/2D_to_3D/blob/main/images/front_view.jpg" width="50%" height="50%" />
 
    - Top view of the point cloud saved as `./images/top_view.jpg`.
 
-   ![Top View](https://github.com/a0n0k0i0t/2D_to_3D/blob/main/images/top_view.jpg)
+   <img src="https://github.com/a0n0k0i0t/2D_to_3D/blob/main/images/top_view.jpg" width="50%" height="50%" />
 
    - Side view of the point cloud saved as `./images/side_view.jpg`.
 
-   ![Side View](https://github.com/a0n0k0i0t/2D_to_3D/blob/main/images/side_view.jpg)
+   <img src="https://github.com/a0n0k0i0t/2D_to_3D/blob/main/images/side_view.jpg" width="50%" height="50%" />
 
    - Birds-eye view of the point cloud saved as `./images/birds_eye_view.jpg`.
 
-   ![Birds Eye View](https://github.com/a0n0k0i0t/2D_to_3D/blob/main/images/birds_eye_view.jpg)
+   <img src="https://github.com/a0n0k0i0t/2D_to_3D/blob/main/images/birds_eye_view.jpg" width="50%" height="50%" />
 
 ---
 
